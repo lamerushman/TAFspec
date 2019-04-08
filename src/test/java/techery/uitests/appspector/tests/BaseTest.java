@@ -25,12 +25,12 @@ public class BaseTest {
 
     }
 
-    String url = "https://app.staging.appspector.com/login";
-    String NEWUSERLOGIN = prop.getProperty("NEWUSERLOGIN","kirill.puhalskiy@gmail.com");
-    String PASSWORD = prop.getProperty("PASSWORD","111111");
-    String DEFAULTUSER = "cyril.p+atbot@techery.io";
-    String defaultpass = "111111";
-    String appname = "new APP test";
+    String url = "";
+    String NEWUSERLOGIN = prop.getProperty("NEWUSERLOGIN","email@email.com");
+    String PASSWORD = prop.getProperty("PASSWORD","password");
+    String DEFAULTUSER = "";
+    String defaultpass = "";
+    String appname = "";
     LoginPage page = open(url, LoginPage.class);
 
 
