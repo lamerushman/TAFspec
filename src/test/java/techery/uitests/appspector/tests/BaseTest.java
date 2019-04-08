@@ -26,7 +26,6 @@ public class BaseTest {
     }
 
     String url = "https://app.staging.appspector.com/login";
-    //String url = "http://app.453.pr.staging.appspector.com/login";
     String NEWUSERLOGIN = prop.getProperty("NEWUSERLOGIN","kirill.puhalskiy@gmail.com");
     String PASSWORD = prop.getProperty("PASSWORD","111111");
     String DEFAULTUSER = "cyril.p+atbot@techery.io";
